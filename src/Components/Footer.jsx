@@ -66,7 +66,7 @@ function Footer() {
                         variant={"link"}
                         colorScheme={"white"}
                     >
-                        <a target="blank" href="https://www.linkedin.com/feed/">
+                        <a target="blank" href="https://www.linkedin.com/in/sandeep-jha-07878a2a4/">
                             Linkedin
                         </a>
                     </Button>
