@@ -1,10 +1,11 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './Components/Home.jsx'
-import Header from './Components/Header.jsx'
-import Footer from './Components/Footer.jsx';
-import Videos from './Components/Videos.jsx'
-import Login from './Components/Login.jsx';
-import Signup from './Components/SignUp.jsx';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Footer from './Components/Footer';
+import Header from './Components/Header';
+import Home from './Components/Home';
+import Login from './Components/Login';
+import Upload from './Components/Upload';
+import Videos from './Components/Videos';
+import Signup from './Components/SignUp';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='/videos' element={<Videos />} />
+        <Route path="/videos" element={<Videos />} />
+        <Route path="/upload" element={<Upload />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>
