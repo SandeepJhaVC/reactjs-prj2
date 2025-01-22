@@ -66,7 +66,7 @@ function Footer() {
                         variant={"link"}
                         colorScheme={"white"}
                     >
-                        <a target="blank" href="/https://www.linkedin.com/feed/">
+                        <a target="blank" href="https://www.linkedin.com/feed/">
                             Linkedin
                         </a>
                     </Button>
@@ -74,7 +74,7 @@ function Footer() {
                         variant={"link"}
                         colorScheme={"white"}
                     >
-                        <a target="blank" href="/https://github.com/SandeepJhaVC">
+                        <a target="blank" href="https://github.com/SandeepJhaVC">
                             Github
                         </a>
                     </Button>
